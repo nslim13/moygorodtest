@@ -13,6 +13,8 @@
       MoyGorod project app.
   </description>
 
+  <access origin="*" />
+
   <author href="https://github.com/nslim13/moygorodtest/" email="nslim@mail.ru">
       NSliM13
   </author>

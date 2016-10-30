@@ -13,7 +13,6 @@
       MoyGorod project app.
   </description>
 
-  <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <access origin="*" browserOnly="true" />
 
   <author href="https://github.com/nslim13/moygorodtest/" email="nslim@mail.ru">

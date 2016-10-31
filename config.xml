@@ -12,10 +12,38 @@
   <description>
       MoyGorod project app.
   </description>
+
+
+
+<!-- Don't block any requests -->
+<access origin="*" />
   
+<!-- Allow links to web pages to open in a browser -->
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+
+<!-- Allow links to example.com to open in a browser -->
+<allow-intent href="http://example.com/*" />
+
+<!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+<allow-intent href="*://*.example.com/*" />
+
+<!-- Allow SMS links to open messaging app -->
+<allow-intent href="sms:*" />
+
+<!-- Allow tel: links to open the dialer -->
+<allow-intent href="tel:*" />
+
+<!-- Allow geo: links to open maps -->
+<allow-intent href="geo:*" />
+
+<!-- Allow all unrecognized URLs to open installed apps
+     *NOT RECOMMENDED* -->
+<allow-intent href="*" />
+
   <content src="http://google.ru" />
 
-  <access origin="*" />
 
   <author href="https://github.com/nslim13/moygorodtest/" email="nslim@mail.ru">
       NSliM13

@@ -14,7 +14,15 @@
   </description>
 
 
+
+
+<allow-navigation href="*" />
+
+<allow-intent href="*" />
+
  <access origin="*" />
+
+
 
 
   <author href="https://github.com/nslim13/moygorodtest/" email="nslim@mail.ru">

@@ -12,6 +12,8 @@
   <description>
       MoyGorod project app.
   </description>
+  
+  <content src="http://google.ru" />
 
   <access origin="*" />
 
